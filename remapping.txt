@@ -1,1 +1,0 @@
-@witnessco/contracts-core=node_modules/@witnessco/contracts-core

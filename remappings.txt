@@ -1,3 +1,4 @@
 solady/src/=node_modules/solady/src/
 @prb/test/=node_modules/@prb/test/
 forge-std/=node_modules/forge-std/
+@witnessco/contracts-core=node_modules/@witnessco/contracts-core
