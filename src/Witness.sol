@@ -69,10 +69,10 @@ contract Witness is IWitness, OwnableRoles {
     //////////////////////////////////////////////////////////////////////////*/
 
     /// @dev Emits an {OwnableRoles.OwnershipTransferred} event.
-    /// @param owner The address that should be set as the initial contract owner.
-    constructor(address owner) {
-        _initializeOwner(owner);
-        _grantRoles(owner, UPDATER_ROLE);
+    /// @param ownerT The address that should be set as the initial contract owner.
+    constructor(address ownerT) {
+        _initializeOwner(ownerT);
+        _grantRoles(ownerT, UPDATER_ROLE);
     }
 
     /*//////////////////////////////////////////////////////////////
